@@ -1,6 +1,15 @@
 
 ## Goal
 In this repository, we implement a fully convolutional regression  networks (FCRNs) approach for regression of a density map in order to get density map of cell pictures for biomedical goals.
+## Generation of Database 
+
+Generating squares randomly positionned in a 100x100 image.
+First step is to randomly position the squares, then get the coordinates of the center of squares, and apply Gaussian filter over them for ground truth.
+Example from dataset : 
+![alt-text-1](https://github.com/Ananas1Anass/Cellular_counting/blob/main/Images/image8.png "title-1") ![alt-text-2](https://github.com/Ananas1Anass/Cellular_counting/blob/main/Images/image_gth_4_17.png "title-2")
+
+
+
 ## Network description 
 ![alt text](https://github.com/Ananas1Anass/Cellular_counting/blob/main/Images/FCRN.png)
 
