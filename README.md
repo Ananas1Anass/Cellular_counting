@@ -6,7 +6,8 @@ In this repository, we implement a fully convolutional regression  networks (FCR
 Generating squares randomly positionned in a 100x100 image.
 First step is to randomly position the squares, then get the coordinates of the center of squares, and apply Gaussian filter over them for ground truth.
 Example from dataset : 
-![alt-text-1](https://github.com/Ananas1Anass/Cellular_counting/blob/main/Images/image8.png "title-1") ![alt-text-2](https://github.com/Ananas1Anass/Cellular_counting/blob/main/Images/image_gth_4_17.png "title-2")
+![alt-text-1](https://github.com/Ananas1Anass/Cellular_counting/blob/main/Images/image_in_7_22.png
+"Input example") ![alt-text-2](https://github.com/Ananas1Anass/Cellular_counting/blob/main/Images/image_gth_4_17.png "Ground truth example")
 
 
 
