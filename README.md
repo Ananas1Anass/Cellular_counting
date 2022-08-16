@@ -16,12 +16,10 @@ Example from dataset :
 
 ## Test on example : 
 
-![alt-text-1](https://github.com/Ananas1Anass/Cellular_counting/blob/main/Images/image_4_35.png "Input example")
-![alt-text-2]((https://github.com/Ananas1Anass/Cellular_counting/blob/main/Images/4_35(1).png "Density map")
+![alt-text-1](https://github.com/Ananas1Anass/Cellular_counting/blob/main/Images/image_4_35.png "Input example") ![alt-text-2]((https://github.com/Ananas1Anass/Cellular_counting/blob/main/Images/4_35(1).png "Density map")
 
 
-![alt-text-1](https://github.com/Ananas1Anass/Cellular_counting/blob/main/Images/image_8_9.png "Input example")
-![alt-text-2](https://github.com/Ananas1Anass/Cellular_counting/blob/main/Images/8_9(1).png "Density map")
+![alt-text-1](https://github.com/Ananas1Anass/Cellular_counting/blob/main/Images/image_8_9.png "Input example") ![alt-text-2](https://github.com/Ananas1Anass/Cellular_counting/blob/main/Images/8_9(1).png "Density map")
 
 
 ## 🔗 Links
