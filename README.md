@@ -7,19 +7,32 @@ Generating squares randomly positionned in a 100x100 image.
 First step is to randomly position the squares, then get the coordinates of the center of squares, and apply Gaussian filter over them for ground truth.
 Example from dataset : 
 
-![alt-text-1](https://github.com/Ananas1Anass/Cellular_counting/blob/main/Images/image_in_7_22.png "Input example") ![alt-text-2](https://github.com/Ananas1Anass/Cellular_counting/blob/main/Images/image_gth_4_17.png "Ground truth example")
-
-
+<p align="center">
+  <img alt="Light" src="./Images/image_in_7_22.png" width="30%">
+&nbsp; &nbsp; &nbsp; &nbsp;
+  <img alt="Dark" src="./Images/image_gth_4_17.png" width="30%">
+</p>
 
 ## Network description 
-![alt text](https://github.com/Ananas1Anass/Cellular_counting/blob/main/Images/FCRN.png)
+
+<p align="center">
+  <img alt="Light" src="./Images/FCRN.png" width="50%">
+ </p>
 
 ## Test on example : 
 
-![alt-text-1](https://github.com/Ananas1Anass/Cellular_counting/blob/main/Images/image_4_35.png "Input example") ![alt-text-2]((https://github.com/Ananas1Anass/Cellular_counting/blob/main/Images/4_35(1).png "Density map")
+<p align="center">
+  <img alt="Light" src="./Images/image_4_35.png" width="30%">
+&nbsp; &nbsp; &nbsp; &nbsp;
+  <img alt="Dark" src="./Images/4_35(1).png" width="30%">
+</p>
+<p align="center">
+  <img alt="Light" src="./Images/image_8_9.png" width="30%">
+&nbsp; &nbsp; &nbsp; &nbsp;
+  <img alt="Dark" src="./Images/8_9(1).png" width="30%">
+</p>
 
 
-![alt-text-1](https://github.com/Ananas1Anass/Cellular_counting/blob/main/Images/image_8_9.png "Input example") ![alt-text-2](https://github.com/Ananas1Anass/Cellular_counting/blob/main/Images/8_9(1).png "Density map")
 
 
 ## 🔗 Links
