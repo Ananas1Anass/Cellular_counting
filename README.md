@@ -32,8 +32,16 @@ Example from dataset :
   <img alt="Dark" src="./Images/8_9(1).png" width="30%">
 </p>
 
+## Requirements : 
 
+```bash
+git clone GIT_repo
+pip install -r requirements.txt
+```
 
+## Training/Validation 
+
+## Testing : 
 
 ## 🔗 Links
 - [ Paper : Microscopy cell counting and detection with fully convolutional regression networks)](https://www.tandfonline.com/doi/abs/10.1080/21681163.2016.1149104?journalCode=tciv20 "Microscopy cell counting and detection with fully convolutional regression networks")
