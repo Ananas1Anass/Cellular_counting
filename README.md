@@ -45,14 +45,14 @@ pip install -r requirements.txt
 
 ## 🔗 Links
 - [ Paper : Microscopy cell counting and detection with fully convolutional regression networks)](https://www.tandfonline.com/doi/abs/10.1080/21681163.2016.1149104?journalCode=tciv20 "Microscopy cell counting and detection with fully convolutional regression networks")
-
+- 
+## Authors
 ```
-@inproceedings{Cellular Counting,
   author    = {BOUKHEMS Anass and
                Taha Mohammed Elqandili},
   title     = {Cellular counting using convolutional network},
   year      = {2021},
   emails    =  {boukhemsanass0@gmail.com,
               elqandili.taha@gmail.com }
-}
+
 ```
