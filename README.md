@@ -84,11 +84,10 @@ dataset = SquareDataset(root='path_to_dataset_root', transform=transform)
 # Access the first item
 input_image, ground_truth_image = dataset[0]
 
-## Testing : 
-  Building
-## 🔗 Links
+
+# 🔗 Links
 - [ Paper : Microscopy cell counting and detection with fully convolutional regression networks)](https://www.tandfonline.com/doi/abs/10.1080/21681163.2016.1149104?journalCode=tciv20 "Microscopy cell counting and detection with fully convolutional regression networks")
-## Authors
+# Authors
 ```
   author    = {BOUKHEMS Anass and
                Taha Mohammed Elqandili},
