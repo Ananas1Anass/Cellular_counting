@@ -40,7 +40,50 @@ pip install -r requirements.txt
 ```
 
 ## Training/Validation 
-  Building
+  # SquareDataset
+
+The `SquareDataset` is a custom dataset class designed for use with PyTorch. It extends the `VisionDataset` class and is specifically tailored for tasks involving paired image data, such as image-to-image translation.
+
+## Class Overview
+
+### Constructor Parameters
+
+- `root` (str): The root directory of the dataset, containing 'input' and 'ground' subdirectories for input and ground truth images respectively.
+
+- `transform` (Optional[Callable]): A function/transform to apply to input and ground truth images.
+
+- `target_transform` (Optional[Callable]): A function/transform to apply to target images.
+
+- `transforms` (Optional[Callable]): A function/transform to apply to both input and target images.
+
+### Methods
+
+- `__getitem__(index: int) -> Tuple[Any, Any]`: Retrieves an item at a given index, returning a tuple with the input and ground truth images.
+
+- `__len__() -> int`: Returns the total number of items in the dataset.
+
+## Architecture
+
+The dataset class leverages the PyTorch library, utilizing the `PIL` (Pillow) for image handling and `torchvision.transforms` for image transformations. It efficiently organizes and loads paired images from specified directories, making them easily accessible for training machine learning models.
+
+## Example Usage
+
+```python
+from square_dataset import SquareDataset
+from torchvision import transforms
+
+# Define transformations
+transform = transforms.Compose([
+    transforms.Resize((256, 256)),
+    transforms.ToTensor()
+])
+
+# Initialize the dataset with transformations
+dataset = SquareDataset(root='path_to_dataset_root', transform=transform)
+
+# Access the first item
+input_image, ground_truth_image = dataset[0]
+
 ## Testing : 
   Building
 ## 🔗 Links
